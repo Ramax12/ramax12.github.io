@@ -1684,6 +1684,10 @@ a.plyr__control::before {
         background: #000; }
   .about-specification__video {
     position: relative; }
+    @media (min-width: 768px) {
+      .about-specification__video .plyr--video {
+        width: calc((100vh - 130px)/ 9 * 16);
+        margin: 0 auto; } }
 
 .about {
   margin-bottom: 5rem; }
